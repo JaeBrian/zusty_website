@@ -58,39 +58,5 @@ const people = [
 
 export default function Team() {
   return (
-    <>
-      <div className='bg-white py-24 sm:py-32'>
-        <div className='mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3'>
-          <div className='max-w-2xl xl:col-span-2'>
-            <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-              Meet our team:
-            </h2>
-            <p className='mt-6 text-lg leading-8 text-gray-600'>
-              Libero fames augue nisl porttitor nisi, quis. Id ac elit odio
-              vitae elementum enim vitae ullamcorper suspendisse.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className='grid grid-cols-2'>
-        {people.map((person) => (
-          <div key={person.name} className='flex items-center gap-x-6'>
-            <img
-              className='max-h-12 rounded-full'
-              src={person.imageUrl}
-              alt=''
-            />
-            <div>
-              <h3 className='text-base font-semibold leading-7 tracking-tight text-gray-900'>
-                {person.name}
-              </h3>
-              <p className='text-sm font-semibold leading-6 text-indigo-600'>
-                {person.role}
-              </p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </>
-  );
+  )
 }
