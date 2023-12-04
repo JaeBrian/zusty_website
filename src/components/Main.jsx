@@ -1,5 +1,8 @@
-import { useState } from 'react';
-
 export default function Main() {
-  return <p>Hello</p>;
+  //chrome store, github files npm
+  return (
+    <div className="page">
+      <div>GITHUB, NPM, CHROME STORE, NAV BAR</div>
+    </div>
+  );
 }
