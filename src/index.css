@@ -72,3 +72,16 @@ button:focus-visible {
   height: 100vh;
   width: 100vw;
 }
+
+.teamContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.personImg {
+  border-radius: 50%;
+  margin: 10px 10px 0px 10px;
+  height: 200px;
+}
