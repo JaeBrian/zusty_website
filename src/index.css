@@ -1,10 +1,8 @@
 body {
-  background-color: #242424;
-
+  background: linear-gradient(to bottom, #383838, #242424);
 }
 
 .page {
-  border: 2px solid white;
   height: 100vh;
   width: 100vw;
 }
