@@ -1,7 +1,7 @@
 import Main from './components/Main';
 import Demo from './components/Demo';
 import Team from './components/Team';
-import './App.css';
+import './index.css';
 
 function App() {
   return (
