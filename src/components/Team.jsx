@@ -40,10 +40,11 @@ const people = [
         <a href='https://www.linkedin.com/in/nancy-huang/'>LinkedIn</a>
       </>
     ),
-    imageUrl: '/src/assets/nancy.jpg',
+    imageUrl:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
   {
-    name: 'William Kill',
+    name: 'William Kil',
     role: (
       <>
         <a href='https://github.com/william-kill'>GitHub</a> {' | '}
@@ -58,13 +59,15 @@ const people = [
 export default function Team() {
   return (
     <div className='teamContainer'>
-      {people.map((person) => (
-        <div key={person.name}>
-          <img className='personImg' src={person.imageUrl} />
-          <p>{person.name}</p>
-          <p>{person.role}</p>
-        </div>
-      ))}
+      <div className='peopleTeam'>
+        {people.map((person) => (
+          <div key={person.name}>
+            <img className='personImg' src={person.imageUrl} />
+            <p>{person.name}</p>
+            <p>{person.role}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

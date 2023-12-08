@@ -75,13 +75,33 @@ button:focus-visible {
 
 .teamContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.peopleTeam {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .personImg {
   border-radius: 50%;
   margin: 10px 10px 0px 10px;
   height: 200px;
+}
+
+.furryTeam {
+  margin-bottom: 50px;
+}
+
+.furryBtn {
+  border-radius: 10%;
+}
+
+.furryBtn:active,
+.furryBtn:hover {
+  outline: 0;
 }

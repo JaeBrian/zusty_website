@@ -6,13 +6,13 @@ import './App.css';
 function App() {
   return (
     <>
-      <div className="bg-black">
+      <div className='bg-black'>
         <Main />
       </div>
-      <div className="bg-black">
+      <div className='bg-black'>
         <Demo />
       </div>
-      <div className="bg-black">
+      <div className='bg-black'>
         <Team />
       </div>
     </>
