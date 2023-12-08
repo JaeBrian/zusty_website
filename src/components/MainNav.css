@@ -11,6 +11,7 @@
   transition: color 150ms ease;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 .button {
@@ -34,7 +35,7 @@
   z-index: 100;
   display: flex;
   justify-content: center;
-  gap: 45px;
+  gap: 80px;
   align-items: center;
   margin-top: 18px;
 }
@@ -87,17 +88,38 @@
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-left: 100px;
   font-size: 50px;
-  opacity: 50%;
+  /* opacity: 50%; */
 }
 
-.paragraph {
+.hero-text {
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: center;
   height: 500px;
-  width: 400px;
-  font-size: 30px;
+  width: 500px;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.hero-h1 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  color: #FCFBF4;
+}
+
+.hero-paragraph-1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 50%;
+}
+
+.hero-paragraph-2 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  opacity: 50%;
 }
 
 .install {
