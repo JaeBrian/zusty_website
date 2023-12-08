@@ -10,36 +10,18 @@ body {
 .demo-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  border: 2px solid white;
-  height: 2150px;
+  /* border: 2px solid white; */
+  height: 2450px;
   width: 100vw;
 }
 
-.tree-description {
-  width: 400px;
-  height: 400px;
-  color: black;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+.gif {
+  height: 480px;
+  width: 800px;
   border-radius: 10px;
-  text-align: center;
-  padding: 40px;
-  margin: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.tree-gif {
-  height: 400px;
-  width: 400px;
-  border-radius: 5px;
   background-color: #f0f0f0;
-  padding: 40px;
-  margin: 15px;
+  border: 3px solid #ccc;
 }
 
 .tree-container {
@@ -48,3 +30,66 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.store-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.snapshot-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-log-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  width: 400px;
+  height: 400px;
+  color: black;
+  background-color: rgba(58, 57, 57, 0.788);
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-weight: 800;
+}
+
+.description .desc {
+  display: none;
+}
+
+.description:hover {
+  background-color: orange;
+}
+
+.description:hover .desc {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.description:hover .title {
+  display: none;
+}
+
+
+

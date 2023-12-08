@@ -5,8 +5,6 @@ import NavBar from './components/NavBar';
 import Welcome from './components/Welcome';
 import { useState, useEffect } from 'react';
 
-import './App.css';
-
 function App() {
   const [showWelcome, setShowWelcome] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
