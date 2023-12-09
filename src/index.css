@@ -7,29 +7,49 @@ body {
   width: 100vw;
 }
 
+
+/* Team Section */
+
 .teamContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.peopleTeam {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
+.person {
+  margin: 20px;
 }
 
-.personImg {
+.person-img {
   border-radius: 50%;
   margin: 10px 10px 0px 10px;
   height: 200px;
 }
 
+.person-name {
+  color: white;
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+}
+
+.links-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.link {
+  color: white;
+  opacity: 60%;
+}
+
 .furryTeam {
   margin-bottom: 50px;
 }
+
 
 .furryBtn {
   border-radius: 10%;
