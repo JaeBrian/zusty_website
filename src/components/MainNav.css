@@ -35,7 +35,7 @@
 .button-container {
   position: -webkit-sticky;
   position: sticky;
-  background-color: #383838;
+  background-color: #333333;
   top: 0;
   z-index: 100;
   display: flex;
