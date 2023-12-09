@@ -31,13 +31,13 @@ function App() {
       {!showWelcome && (
         <div>
           <NavBar />
-          <div id="main" className="bg-black">
+          <div id='main' className='bg-black'>
             <Main />
           </div>
-          <div id="demo" className="bg-black">
+          <div id='demo' className='bg-black'>
             <Demo />
           </div>
-          <div id="team" className="bg-black">
+          <div id='team' className='bg-black'>
             <Team />
           </div>
         </div>
