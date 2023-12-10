@@ -1,6 +1,7 @@
 .page-x {
   height: 100vh;
   width: 100vw;
+  /* scroll-snap-align: start; */
 }
 
 .buttons {
@@ -201,3 +202,15 @@ h1 {
   border-bottom-right-radius: 40px;
   right: -6px;
 }
+
+/* .mainContainer {
+  scroll-snap-type: y proximity;
+}
+
+.page-demo {
+  scroll-snap-align: start;
+}
+
+.page {
+  scroll-snap-align: start;
+} */

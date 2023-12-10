@@ -27,7 +27,7 @@ function App() {
     <>
       {showWelcome && <Welcome fadeOut={fadeOut} />}
       {!showWelcome && (
-        <div>
+        <div className="mainContainer">
           <NavBar />
           <div id="main" className="bg-black">
             <Main />

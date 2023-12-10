@@ -9,58 +9,47 @@ body {
 
 .demo-container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column;
   align-items: center;
-  /* border: 2px solid white; */
   height: 2450px;
-  width: 100vw;
+  width: 100vw; */
+  flex-wrap: no-wrap;
+  overflow-x: auto;
+  margin: 20px; 
+  scroll-snap-type: x mandatory;
+}
+
+.feature-title {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .gif {
-  height: 480px;
-  width: 800px;
+  height: 70vh;
+  width: 65vw;
   border-radius: 10px;
   background-color: #f0f0f0;
   border: 3px solid #ccc;
 }
 
-.tree-container {
+.container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  scroll-snap-align: start;
 }
 
-.store-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.snapshot-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.action-log-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 
 .description {
-  width: 400px;
-  height: 400px;
+  width: 25vw;
+  height: 70vh;
   color: black;
   background-color: rgba(58, 57, 57, 0.788);
   border: 3px solid #ccc;
   border-radius: 10px;
   text-align: center;
-  padding: 40px;
+  /* padding: 40px; */
   margin: 15px;
   display: flex;
   flex-direction: column;
