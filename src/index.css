@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(to bottom, #383838, #242424);
+  background: linear-gradient(to bottom, #333333, #1e1e1e);
+
 }
 
 .page {
@@ -7,6 +8,63 @@ body {
   width: 100vw;
 }
 
+
+/* Team Section */
+
+.teamContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 1000px;
+}
+
+.person {
+  margin: 20px;
+}
+
+.person-img {
+  border-radius: 50%;
+  margin: 10px 10px 0px 10px;
+  height: 200px;
+}
+
+.person-name {
+  color: white;
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+}
+
+.links-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.link {
+  color: white;
+  opacity: 60%;
+}
+
+.furryTeam {
+  margin-bottom: 50px;
+}
+
+
+.furryBtn {
+  border-radius: 10%;
+}
+
+.furryBtn:active,
+.furryBtn:hover {
+  outline: 0;
+}
+
+/*
+horizontal scrolling features below
+*/
 .demo-container {
   display: flex;
   /* flex-direction: column;
@@ -26,7 +84,7 @@ body {
 
 .gif {
   height: 70vh;
-  width: 65vw;
+  width: 60vw;
   border-radius: 10px;
   background-color: #f0f0f0;
   border: 3px solid #ccc;
@@ -42,7 +100,7 @@ body {
 
 
 .description {
-  width: 25vw;
+  width: 32vw;
   height: 70vh;
   color: black;
   background-color: rgba(58, 57, 57, 0.788);
@@ -64,6 +122,12 @@ body {
 
 .description .desc {
   display: none;
+  margin: 30px;
+
+}
+
+.desc {
+  font-size: 50px;
 }
 
 .description:hover {
@@ -72,7 +136,7 @@ body {
 
 .description:hover .desc {
   display: block;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: normal;
 }
 
@@ -80,5 +144,22 @@ body {
   display: none;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+  margin: none;
+  background-color: #232323;
+}
 
+::-webkit-scrollbar-track {
+  background-color: #232323;
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+  border: 2px solid #312b2f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: darkorange;
+}

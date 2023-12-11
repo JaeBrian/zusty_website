@@ -1,19 +1,22 @@
 import './MainNav.css';
+import InstallButton from './InstallButton.jsx';
 
-export default function Main() {
+const Main = () => {
   return (
-    <div className="page-x">
-      <div className="logo-container">
-        <div className="logo"></div>
-        <div className="intro">
-          <p className="paragraph">
-            <p>WHAT IS ZUSTY</p>
-            Zusty is a Zustand developer tool that allows you to time travel,
-            look at state snapshots for when developing a Zustand web
-            application
-          </p>
+    <div className='page-x'>
+      <div className='logo-container'>
+        <div className='logo'></div>
+        <div className='intro'>
+          <container className='hero-text'>
+            <h1 className='hero-h1'>A ZUSTAND DEV TOOL</h1>
+            <p className='hero-paragraph-1'>Designed for Zustand web apps</p>
+            <p className='hero-paragraph-2'>Featuring time-traveling capabilities & action snapshots</p>
+            <InstallButton />
+          </container>
         </div>
       </div>
     </div>
   );
 }
+
+export default Main;
