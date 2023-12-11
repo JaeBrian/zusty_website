@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(to bottom, #333333, #1e1e1e);
+
 }
 
 .page {
@@ -16,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 1000px;
 }
 
 .person {
@@ -58,4 +60,106 @@ body {
 .furryBtn:active,
 .furryBtn:hover {
   outline: 0;
+}
+
+/*
+horizontal scrolling features below
+*/
+.demo-container {
+  display: flex;
+  /* flex-direction: column;
+  align-items: center;
+  height: 2450px;
+  width: 100vw; */
+  flex-wrap: no-wrap;
+  overflow-x: auto;
+  margin: 20px; 
+  scroll-snap-type: x mandatory;
+}
+
+.feature-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gif {
+  height: 70vh;
+  width: 60vw;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  border: 3px solid #ccc;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+
+.description {
+  width: 32vw;
+  height: 70vh;
+  color: black;
+  background-color: rgba(58, 57, 57, 0.788);
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  /* padding: 40px; */
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-weight: 800;
+}
+
+.description .desc {
+  display: none;
+  margin: 30px;
+
+}
+
+.desc {
+  font-size: 50px;
+}
+
+.description:hover {
+  background-color: orange;
+}
+
+.description:hover .desc {
+  display: block;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.description:hover .title {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  margin: none;
+  background-color: #232323;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #232323;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+  border: 2px solid #312b2f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: darkorange;
 }
