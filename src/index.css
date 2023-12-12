@@ -1,13 +1,11 @@
 body {
   background: linear-gradient(to bottom, #333333, #1e1e1e);
-
 }
 
 .page {
   height: 100vh;
   width: 100vw;
 }
-
 
 /* Team Section */
 
@@ -52,7 +50,6 @@ body {
   margin-bottom: 50px;
 }
 
-
 .furryBtn {
   border-radius: 10%;
 }
@@ -73,7 +70,7 @@ horizontal scrolling features below
   width: 100vw; */
   flex-wrap: no-wrap;
   overflow-x: auto;
-  margin: 20px; 
+  margin: 20px;
   scroll-snap-type: x mandatory;
 }
 
@@ -97,7 +94,6 @@ horizontal scrolling features below
   align-items: center;
   scroll-snap-align: start;
 }
-
 
 .description {
   width: 32vw;
@@ -123,7 +119,6 @@ horizontal scrolling features below
 .description .desc {
   display: none;
   margin: 30px;
-
 }
 
 .desc {

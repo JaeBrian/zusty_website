@@ -16,8 +16,7 @@ let team = [
     name: 'Dana Kaplan',
     github: 'https://github.com/DanaKaplan944',
     linkedin: 'https://www.linkedin.com/in/danakaplan2/',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    imageUrl: '../public/team-pics/Dana.png',
   },
   {
     name: 'Nancy Huang',
@@ -36,14 +35,14 @@ let team = [
 
 export default function Team() {
   return (
-    <div className="teamContainer">
+    <div className='teamContainer'>
       {team.map((team) => (
-        <div className="person" key={team.name}>
-          <img className="person-img" src={team.imageUrl} />
-          <p className="person-name">{team.name}</p>
-          <div className="links-section">
+        <div className='person' key={team.name}>
+          <img className='person-img' src={team.imageUrl} />
+          <p className='person-name'>{team.name}</p>
+          <div className='links-section'>
             <div
-              className="link"
+              className='link'
               onClick={() => {
                 window.open(team.github, '_blank', 'noreferrer');
               }}
@@ -51,7 +50,7 @@ export default function Team() {
               GitHub
             </div>
             <div
-              className="link"
+              className='link'
               onClick={() => {
                 window.open(team.linkedin, '_blank', 'noreferrer');
               }}
