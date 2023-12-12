@@ -62,19 +62,16 @@ body {
   outline: 0;
 }
 
-/*
-horizontal scrolling features below
-*/
+
 .demo-container {
   display: flex;
-  /* flex-direction: column;
+  flex-direction: column;
   align-items: center;
-  height: 2450px;
-  width: 100vw; */
-  flex-wrap: no-wrap;
-  overflow-x: auto;
-  margin: 20px; 
-  scroll-snap-type: x mandatory;
+  /* height: 4300px; */
+  height: 330vh;
+  width: 100vw;
+  gap: 100px;
+  background-color: none;
 }
 
 .feature-title {
@@ -88,6 +85,8 @@ horizontal scrolling features below
   border-radius: 10px;
   background-color: #f0f0f0;
   border: 3px solid #ccc;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .container {
@@ -95,53 +94,36 @@ horizontal scrolling features below
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  scroll-snap-align: start;
+  scroll-snap-align: start;;
+  border-radius: 9px;
+  margin-left: 50px;
+  margin-right: 60px;
+  box-shadow: rgba(255, 176, 0, 0.7) 0 0 20px 18px;
 }
 
 
 .description {
   width: 32vw;
-  height: 70vh;
+  height: 64vh;
   color: black;
-  background-color: rgba(58, 57, 57, 0.788);
-  border: 3px solid #ccc;
+  background-color: gray;
   border-radius: 10px;
   text-align: center;
-  /* padding: 40px; */
+  padding: 40px;
   margin: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 25px;
+  font-size: 30px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
   font-weight: 800;
 }
 
-.description .desc {
-  display: none;
-  margin: 30px;
-
-}
-
-.desc {
-  font-size: 50px;
-}
-
-.description:hover {
-  background-color: orange;
-}
-
-.description:hover .desc {
-  display: block;
-  font-size: 25px;
-  font-weight: normal;
-}
-
-.description:hover .title {
-  display: none;
+.title {
+  font-size: 40px;
 }
 
 ::-webkit-scrollbar {
