@@ -44,38 +44,58 @@ body {
 
 .github {
   height: 200px;
+  @media only screen and (max-width: 2053px) {
+    height: 100px;
+  }
 }
 .chrome {
   height: 200px;
   margin: -80px;
+  @media only screen and (max-width: 2053px) {
+    height: 100px;
+  }
 }
 
 .npm {
   height: 130px;
+  @media only screen and (max-width: 2053px) {
+    height: 100px;
+  }
 }
 
 .medium {
   height: 200px;
   margin-left: -20px;
+  @media only screen and (max-width: 2053px) {
+    height: 100px;
+  }
 }
 
 #teaminstall {
   height: 110px;
   width: 450px;
   font-size: 30px;
+  @media only screen and (max-width: 2053px) {
+    height: 70px;
+    font-size: 12px;
+    width: 300px;
+  }
 }
 
 .meet {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 180px;
+  font-size: 170px;
   color: white;
   margin-top: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   animation: colorChange 8s infinite;
   text-shadow: 2px 2px 2px rgb(81, 67, 21), -2px 2px 2px rgb(81, 67, 21),
     -2px -2px 2px rgb(81, 67, 21), 2px -2px 2px rgb(81, 67, 21);
+  @media only screen and (max-width: 2053px) {
+    font-size: 100px;
+  }
 }
 
 @keyframes colorChange {
@@ -95,6 +115,9 @@ body {
   border-radius: 50%;
   margin: 10px 10px 0px 10px;
   height: 300px;
+  @media only screen and (max-width: 2053px) {
+    height: 200px;
+  }
 }
 .person-name {
   color: white;
@@ -131,10 +154,16 @@ body {
   width: 100vw;
   gap: 120px;
   background-color: none;
+  @media only screen and (max-width: 2053px) {
+    gap: 50px;
+  }
 }
 .feature-title {
   text-align: center;
   margin-bottom: 50px;
+  @media only screen and (max-width: 2053px) {
+    font-size: 100px;
+  }
 }
 .gif {
   height: 55vh;
@@ -154,6 +183,9 @@ body {
   border-radius: 9px;
   margin-left: 50px;
   margin-right: 60px;
+  @media only screen and (max-width: 2053px) {
+    gap: 100px;
+  }
 }
 .description {
   width: 30vw;
@@ -172,6 +204,9 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
   font-weight: 200;
+  @media only screen and (max-width: 2053px) {
+    font-size: 25px;
+  }
 }
 
 .title {
