@@ -41,7 +41,7 @@ const NavBar = () => {
       <div className="gg-link"></div>
       <a
         className="buttons"
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+        href="https://chromewebstore.google.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -57,7 +57,7 @@ const NavBar = () => {
       </a>
       <a
         className="buttons"
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+        href="https://medium.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
