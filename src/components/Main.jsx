@@ -9,7 +9,7 @@ const Main = () => {
         <div className="logo"></div>
         <div className="intro">
           <Glow />
-          <container className="hero-text">
+          <div className="hero-text">
             <h1 className="hero-h1">A ZUSTAND DEV TOOL</h1>
             <p className="hero-paragraph-1">
               Designed for easy debugging of Zustand applications
@@ -20,7 +20,7 @@ const Main = () => {
             </p>
             <InstallButton />
             <Glow />
-          </container>
+          </div>
         </div>
       </div>
     </div>

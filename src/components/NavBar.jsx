@@ -12,7 +12,7 @@ const NavBar = () => {
         className="button"
         spy={true}
         exact="true"
-        offset={-100}
+        offset={-200}
       >
         ABOUT
       </Link>
@@ -34,7 +34,7 @@ const NavBar = () => {
         className="button"
         spy={true}
         exact="true"
-        offset={400}
+        offset={600}
       >
         TEAM
       </Link>
