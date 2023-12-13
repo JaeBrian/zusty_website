@@ -1,9 +1,6 @@
-root {
-  width: 90vw;
-}
-
 body {
   background: linear-gradient(to bottom, #333333, #1e1e1e);
+  overflow-x: hidden;
 }
 .page {
   height: 100vh;
@@ -190,8 +187,7 @@ body {
   gap: 280px;
   scroll-snap-align: start;
   border-radius: 9px;
-  margin-left: 50px;
-  margin-right: 60px;
+
   @media only screen and (max-width: 2053px) {
     gap: 100px;
   }
