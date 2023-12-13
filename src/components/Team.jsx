@@ -5,31 +5,31 @@ let team = [
     name: 'Adrian Insingo',
     github: 'https://github.com/adrianinsingo',
     linkedin: 'https://www.linkedin.com/in/adrian-insingo',
-    imageUrl: '../public/team-pics/adrian.png',
+    imageUrl: '../team-pics/adrian.png',
   },
   {
     name: 'Brian Lee',
     github: 'https://github.com/JaeBrian',
     linkedin: 'http://www.linkedin.com/in/brian-jaekook-lee',
-    imageUrl: '../public/team-pics/jaekook-lee.jpeg',
+    imageUrl: '../team-pics/jaekook-lee.jpeg',
   },
   {
     name: 'Dana Kaplan',
     github: 'https://github.com/DanaKaplan944',
     linkedin: 'https://www.linkedin.com/in/danakaplan2/',
-    imageUrl: '../public/team-pics/Dana4.png',
+    imageUrl: '../team-pics/Dana4.png',
   },
   {
     name: 'Nancy Huang',
     github: 'https://github.com/itsnancyhuang',
     linkedin: 'https://www.linkedin.com/in/nancy-huang/',
-    imageUrl: '../public/team-pics/nancy-huang.jpg',
+    imageUrl: '../team-pics/nancy-huang.jpg',
   },
   {
     name: 'William Kil',
     github: 'https://github.com/shinykoin',
     linkedin: 'https://www.linkedin.com/in/william-kil-2a917110a/',
-    imageUrl: '../public/team-pics/will.jpeg',
+    imageUrl: '../team-pics/will.jpeg',
   },
 ];
 
@@ -42,25 +42,25 @@ export default function Team() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="npm" src="../public/team-pics/npm.png"></img>
+          <img className="npm" src="../team-pics/npm.png"></img>
         </a>
         <a
           href="https://chromewebstore.google.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="chrome" src="../public/team-pics/Chrome.png"></img>
+          <img className="chrome" src="../team-pics/Chrome.png"></img>
         </a>
 
         <a href="https://medium.com/" target="_blank" rel="noopener noreferrer">
-          <img className="medium" src="../public/team-pics/medium.png"></img>
+          <img className="medium" src="../team-pics/medium.png"></img>
         </a>
         <a
           href="https://github.com/oslabs-beta/Zusty"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="github" src="../public/team-pics/github.png"></img>
+          <img className="github" src="../team-pics/github.png"></img>
         </a>
       </div>
       <div className="install-container">
@@ -85,7 +85,7 @@ export default function Team() {
               >
                 <img
                   className="gitlink"
-                  src="../public/team-pics/githubwhite1.png"
+                  src="../team-pics/githubwhite1.png"
                 ></img>
               </div>
               <div
@@ -94,10 +94,7 @@ export default function Team() {
                   window.open(team.linkedin, '_blank', 'noreferrer');
                 }}
               >
-                <img
-                  className="link"
-                  src="../public/team-pics/linkedin.png"
-                ></img>
+                <img className="link" src="../team-pics/linkedin.png"></img>
               </div>
             </div>
           </div>

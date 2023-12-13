@@ -27,11 +27,11 @@ const Demo = () => {
               insights into component relationships for streamlined development.{' '}
             </p>
           </div>
-          <img className="gif" src="../../public/demo-pics/Tree.gif"></img>
+          <img className="gif" src="../demo-pics/Tree.gif"></img>
         </div>
 
         <div className="container">
-          <img className="gif" src="../../public/demo-pics/Store.gif"></img>
+          <img className="gif" src="../demo-pics/Store.gif"></img>
           <div className="description">
             <p className="title">STORE</p>
             <p className="desc">
@@ -55,14 +55,11 @@ const Demo = () => {
               state for efficient debugging and analysis.
             </p>
           </div>
-          <img
-            className="gif"
-            src="../../public/demo-pics/StateSnapShot.gif"
-          ></img>
+          <img className="gif" src="../demo-pics/StateSnapShot.gif"></img>
         </div>
 
         <div className="container">
-          <img className="gif" src="../../public/demo-pics/ActionLog.gif"></img>
+          <img className="gif" src="../demo-pics/ActionLog.gif"></img>
           <div className="description">
             <p className="title">ACTION LOG</p>
             <p className="desc">
