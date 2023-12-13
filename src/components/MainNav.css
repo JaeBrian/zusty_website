@@ -231,14 +231,21 @@ h1 {
   right: -6px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1380px) {
   .logo {
-    width: 450px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
   }
 
   .hero-text {
     height: 400px;
+  }
+}
+
+@media screen and (min-width: 1373px) {
+  .logo {
+    width: 600px;
+    height: 600px;
   }
 }
 
