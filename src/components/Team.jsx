@@ -28,9 +28,8 @@ let team = [
   {
     name: 'William Kil',
     github: 'https://github.com/shinykoin',
-    linkedin: 'https://www.linkedin.com/in/adrian-insingo',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    linkedin: 'https://www.linkedin.com/in/william-kil-2a917110a/',
+    imageUrl: '../public/team-pics/will.jpeg',
   },
 ];
 
@@ -38,10 +37,31 @@ export default function Team() {
   return (
     <>
       <div className="git-container">
-        <img className="npm" src="../public/team-pics/npm.png"></img>
-        <img className="chrome" src="../public/team-pics/Chrome.png"></img>
-        <img className="medium" src="../public/team-pics/medium.png"></img>
-        <img className="github" src="../public/team-pics/github.png"></img>
+        <a
+          href="https://www.npmjs.com/package/zustymiddleware"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="npm" src="../public/team-pics/npm.png"></img>
+        </a>
+        <a
+          href="https://chromewebstore.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="chrome" src="../public/team-pics/Chrome.png"></img>
+        </a>
+
+        <a href="https://medium.com/" target="_blank" rel="noopener noreferrer">
+          <img className="medium" src="../public/team-pics/medium.png"></img>
+        </a>
+        <a
+          href="https://github.com/oslabs-beta/Zusty"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="github" src="../public/team-pics/github.png"></img>
+        </a>
       </div>
       <div className="install-container">
         <InstallButtonTeam className="install" />
