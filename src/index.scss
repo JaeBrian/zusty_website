@@ -27,11 +27,17 @@ body {
 }
 
 .gitlink {
-  height: 60px;
+  height: 45px;
+  @media only screen and (max-width: 2053px) {
+    height: 30px;
+  }
 }
 
 .link {
-  height: 60px;
+  height: 45px;
+  @media only screen and (max-width: 2053px) {
+    height: 30px;
+  }
 }
 
 .git-container {
@@ -121,9 +127,12 @@ body {
 }
 .person-name {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   font-family: Helvetica, sans-serif;
+  @media only screen and (max-width: 2053px) {
+    font-size: 20px;
+  }
 }
 .links-section {
   display: flex;
