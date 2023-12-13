@@ -12,26 +12,29 @@ const NavBar = () => {
         className="button"
         spy={true}
         exact="true"
+        offset={-100}
       >
         ABOUT
       </Link>
       <Link
         to="demo"
         smooth={true}
-        duration={300}
+        duration={500}
         className="button"
         spy={true}
         exact="true"
+        offset={-100}
       >
         DEMO
       </Link>
       <Link
         to="team"
         smooth={true}
-        duration={300}
+        duration={500}
         className="button"
         spy={true}
         exact="true"
+        offset={400}
       >
         TEAM
       </Link>
