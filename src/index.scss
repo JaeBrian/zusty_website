@@ -89,7 +89,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 170px;
+  font-size: 140px;
   color: white;
   margin-top: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -282,7 +282,6 @@ body {
     tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
 
   @include sp-layout {
-    // For mobile performance, tail-fade animation will be removed QAQ
     animation: fall var(--fall-duration) var(--fall-delay) linear infinite;
   }
 
