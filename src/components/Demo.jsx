@@ -30,7 +30,7 @@ const Demo = () => {
           <img className="gif" src="../demo-pics/Tree.gif"></img>
         </div>
 
-        <div className="container">
+        <div className="container-rev">
           <img className="gif" src="../demo-pics/Store.gif"></img>
           <div className="description">
             <p className="title">STORE</p>
@@ -58,7 +58,7 @@ const Demo = () => {
           <img className="gif" src="../demo-pics/StateSnapShot.gif"></img>
         </div>
 
-        <div className="container">
+        <div className="container-rev">
           <img className="gif" src="../demo-pics/ActionLog.gif"></img>
           <div className="description">
             <p className="title">ACTION LOG</p>

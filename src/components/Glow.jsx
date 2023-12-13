@@ -1,4 +1,4 @@
-import './MainNav.css';
+import './MainNav.scss';
 
 const Glow = () => {
   return (

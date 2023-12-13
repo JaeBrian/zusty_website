@@ -1,4 +1,4 @@
-import './MainNav.css';
+import './MainNav.scss';
 import InstallButton from './InstallButton.jsx';
 import Glow from './Glow.jsx';
 
