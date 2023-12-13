@@ -1,4 +1,4 @@
-import './MainNav.css';
+import './MainNav.scss';
 import { Link } from 'react-scroll';
 
 const NavBar = () => {
@@ -40,6 +40,7 @@ const NavBar = () => {
       </Link>
       <div className="gg-link"></div>
       <a
+        id="chromebutton"
         className="buttons"
         href="https://chromewebstore.google.com/"
         target="_blank"
@@ -48,6 +49,7 @@ const NavBar = () => {
         CHROME STORE
       </a>
       <a
+        id="npmbutton"
         className="buttons"
         href="https://www.npmjs.com/package/zustymiddleware"
         target="_blank"

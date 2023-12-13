@@ -1,4 +1,4 @@
-import './MainNav.css';
+import './MainNav.scss';
 
 const Welcome = ({ fadeOut }) => {
   const message = 'WELCOME TO ZUSTY';

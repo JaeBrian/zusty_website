@@ -14,13 +14,26 @@ body {
   align-items: center;
   text-align: center;
   height: 700px;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    height: 1800px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .install-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 490px;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    height: 250px;
+  }
 }
 
 .gitlink {
@@ -43,6 +56,16 @@ body {
   justify-content: space-around;
   gap: 20px;
   height: 500px;
+  @media only screen and (max-width: 2053px) {
+    height: 30px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 
 .github {
@@ -51,12 +74,20 @@ body {
   @media only screen and (max-width: 2053px) {
     height: 100px;
   }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    height: 30px;
+    margin: 0px;
+  }
 }
 .chrome {
   height: 200px;
   margin: -80px;
   @media only screen and (max-width: 2053px) {
     height: 100px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    height: 30px;
+    margin: 0px;
   }
 }
 
@@ -65,6 +96,10 @@ body {
   @media only screen and (max-width: 2053px) {
     height: 100px;
   }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    height: 30px;
+    margin: 0px;
+  }
 }
 
 .medium {
@@ -72,6 +107,9 @@ body {
   margin-left: -20px;
   @media only screen and (max-width: 2053px) {
     height: 100px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    height: 30px;
   }
 }
 
@@ -83,6 +121,10 @@ body {
     height: 70px;
     font-size: 12px;
     width: 300px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    height: 55px;
+    width: 225px;
   }
 }
 
@@ -99,6 +141,9 @@ body {
     -2px -2px 2px rgb(81, 67, 21), 2px -2px 2px rgb(81, 67, 21);
   @media only screen and (max-width: 2053px) {
     font-size: 100px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 26px;
   }
 }
 
@@ -162,7 +207,9 @@ body {
   gap: 120px;
   background-color: none;
   @media only screen and (max-width: 2053px) {
-    gap: 50px;
+    gap: 20px;
+    height: 330vh;
+    width: 96vw;
   }
 }
 .feature-title {
@@ -170,6 +217,11 @@ body {
   margin-bottom: 50px;
   @media only screen and (max-width: 2053px) {
     font-size: 100px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 60px;
+    margin-bottom: -60px;
+    margin-top: 150px;
   }
 }
 .gif {
@@ -179,6 +231,10 @@ body {
   background-color: #f0f0f0;
   border: 3px solid #ccc;
   box-shadow: 0 0 30px 1px orange;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 360px;
+    height: 520px;
+  }
 }
 .container {
   display: flex;
@@ -191,6 +247,11 @@ body {
 
   @media only screen and (max-width: 2053px) {
     gap: 100px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
   }
 }
 .description {
@@ -213,6 +274,12 @@ body {
   @media only screen and (max-width: 2053px) {
     font-size: 25px;
   }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 16px;
+    width: 365px;
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 .title {
@@ -220,6 +287,9 @@ body {
   color: orange;
   margin: 0px;
   font-weight: 700;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 30px;
+  }
 }
 ::-webkit-scrollbar {
   width: 15px;
@@ -350,5 +420,26 @@ body {
     50% {
       opacity: 0.6;
     }
+  }
+}
+
+//for reversed classes to unreverse....
+
+.container-rev {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 280px;
+  scroll-snap-align: start;
+  border-radius: 9px;
+
+  @media only screen and (max-width: 2053px) {
+    gap: 100px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 550px;
   }
 }
