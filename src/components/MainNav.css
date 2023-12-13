@@ -43,7 +43,8 @@
   justify-content: center;
   gap: 80px;
   align-items: center;
-  margin-top: 18px;
+
+  width: 100vw;
 }
 
 .line {
@@ -52,15 +53,15 @@
 
 .logo {
   background-image: url('./src/assets/zusty.png');
-  width: 800px;
-  height: 800px;
+  width: 1000px;
+  height: 1000px;
   background-size: cover;
 }
 
 @media screen and (min-width: 800px) {
   .logo {
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
   }
 }
 
@@ -103,9 +104,9 @@
   align-items: left;
   justify-content: center;
   height: 500px;
-  width: 500px;
+  width: 550px;
   font-family: Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 27px;
   text-transform: uppercase;
 }
 
@@ -113,7 +114,7 @@
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   font-size: 45px;
-  color: #FCFBF4;
+  color: orange;
 }
 
 .hero-paragraph-1 {
@@ -241,7 +242,6 @@ h1 {
   }
 }
 
-
 @media screen and (max-width: 1050px) {
   .logo {
     width: 400px;
@@ -264,7 +264,7 @@ h1 {
     justify-content: center;
   }
 
-  .hero-text{
+  .hero-text {
     align-self: center;
     text-align: center;
   }
@@ -290,14 +290,14 @@ h1 {
     justify-content: center;
   }
 
-  .hero-text{
+  .hero-text {
     align-self: center;
     text-align: center;
     width: 400px;
   }
 
   .hero-h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
 }
 
@@ -314,11 +314,18 @@ h1 {
   border: 0px;
   font-weight: 700;
   box-shadow: 0px 0px 14px -7px #ffb000;
-  background-image: linear-gradient(45deg, #ff632f 0%, #ffb000  51%, #ff632f  100%);
+  background-image: linear-gradient(
+    45deg,
+    #ff632f 0%,
+    #ffb000 51%,
+    #ff632f 100%
+  );
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  height: 60px;
+  width: 250px;
 }
 
 .install-btn:hover {
@@ -347,7 +354,6 @@ h1 {
   }
 }
 
-
 @media screen and (max-width: 1050px) {
   .logo {
     width: 400px;
@@ -370,7 +376,7 @@ h1 {
     justify-content: center;
   }
 
-  .hero-text{
+  .hero-text {
     align-self: center;
     text-align: center;
   }
@@ -396,7 +402,7 @@ h1 {
     justify-content: center;
   }
 
-  .hero-text{
+  .hero-text {
     align-self: center;
     text-align: center;
     width: 400px;
@@ -420,7 +426,12 @@ h1 {
   border: 0px;
   font-weight: 700;
   box-shadow: 0px 0px 14px -7px #ffb000;
-  background-image: linear-gradient(45deg, #ff632f 0%, #ffb000  51%, #ff632f  100%);
+  background-image: linear-gradient(
+    45deg,
+    #ff632f 0%,
+    #ffb000 51%,
+    #ff632f 100%
+  );
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
