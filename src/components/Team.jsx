@@ -29,7 +29,7 @@ let team = [
     name: 'William Kil',
     github: 'https://github.com/shinykoin',
     linkedin: 'https://www.linkedin.com/in/william-kil-2a917110a/',
-    imageUrl: '../team-pics/will.jpeg',
+    imageUrl: '../team-pics/image.png',
   },
 ];
 
