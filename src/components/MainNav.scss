@@ -62,8 +62,8 @@
 
 .logo {
   background-image: url('../assets/zusty.png');
-  width: 1000px;
-  height: 1000px;
+  width: 600px;
+  height: 600px;
   background-size: cover;
 }
 
@@ -183,6 +183,7 @@
 .fade-in {
   opacity: 0;
   animation: fadeIn 0.3s forwards;
+  font-size: 100px;
 }
 
 @keyframes fadeIn {
@@ -277,8 +278,20 @@ h1 {
 
 @media screen and (min-width: 1373px) {
   .logo {
+
+    width: 650px;
+    height: 650px;
+  }
+}
+
+@media screen and (max-width: 1373px) {
+  .logo {
+    width: 600px;
+    height: 600px;
+
     width: 900px;
     height: 900px;
+
   }
 }
 
