@@ -1,5 +1,5 @@
 .page-x {
-  height: 90vh;
+  height: 70vh;
   width: 98vw;
   /* scroll-snap-align: start; */
 }
@@ -118,7 +118,7 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  justify-content: center;
+  justify-content: space-between;
   height: 500px;
   width: 550px;
   font-family: Helvetica, sans-serif;
@@ -277,22 +277,15 @@ h1 {
 
 @media screen and (min-width: 1373px) {
   .logo {
-    width: 700px;
-    height: 700px;
-  }
-}
-
-@media screen and (max-width: 1373px) {
-  .logo {
-    width: 600px;
-    height: 600px;
+    width: 900px;
+    height: 900px;
   }
 }
 
 @media screen and (max-width: 1050px) {
   .logo {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -319,6 +312,10 @@ h1 {
   .intro {
     justify-content: flex-start;
     margin: 0px;
+  }
+
+  .hero-btn {
+    align-self: center;
   }
 }
 

@@ -22,9 +22,7 @@ const Demo = () => {
           <div className="description">
             <p className="title">COMPONENT TREE </p>
             <p className="desc">
-              See your applications components with our Component Hierarchy Tree
-              feature, swiftly visualize and troubleshoot issues, gaining clear
-              insights into component relationships for streamlined development.{' '}
+              With our interactive Component Hierarchy Tree, you can easily view all of your components and identify what is affecting the state across your application, allowing you to quickly visualize and troubleshoot issues
             </p>
           </div>
           <img className="gif" src="../demo-pics/Tree.gif"></img>
@@ -35,12 +33,7 @@ const Demo = () => {
           <div className="description">
             <p className="title">STORE</p>
             <p className="desc">
-              Explore your Zustand-powered state management effortlessly with
-              our dev tool&apos;s new visualization feature. Gain instant
-              insights into your application&apos;s state structure, allowing
-              for efficient debugging and optimization. Simplify your
-              development process and elevate your coding experience with our
-              intuitive, real-time visualization tool.
+              Throughout the debugging process, you can easily gain instant insights into your app&apos;s state structure and functions to efficiently debug and optimize without needing to look into the code base
             </p>
           </div>
         </div>
@@ -49,10 +42,7 @@ const Demo = () => {
           <div className="description">
             <p className="title">STATE SNAPSHOTS </p>
             <p className="desc">
-              Effortlessly track and visualize your store&apos;s state changes
-              with our state snapshot feature. Instantly capture the impact of
-              each action, providing a clear representation of the modified
-              state for efficient debugging and analysis.
+              Track and visualize your store&apos;s state changes with Zusty&apos;s state snapshot feature, instantly capturing the impact of each action with timestamps for efficient debugging
             </p>
           </div>
           <img className="gif" src="../demo-pics/StateSnapShot.gif"></img>
@@ -63,15 +53,7 @@ const Demo = () => {
           <div className="description">
             <p className="title">ACTION LOG</p>
             <p className="desc">
-              Boost your Zustand app development with our Action Log Dev Tool!
-              Effortlessly track and visualize every state-affecting action,
-              harness the power of time travel to explore states pre and
-              post-action, and gain valuable insights with real-time metrics.
-              Instantly spot rendering efficiency with color-coded indicators:
-              green for swift renders, yellow for potential slowdowns, and red
-              for critical issues. Dive deeper with a toggle to display actual
-              render times. Elevate your development game—download now for
-              seamless optimization and unparalleled insights!
+              Provides time-traveling capabilities with timestamps for a smoother debugging process, and offers a diffing feature to compare previous and post-action states. Spot rendering efficiency with color-coded indicators
             </p>
           </div>
         </div>
