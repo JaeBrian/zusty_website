@@ -277,15 +277,22 @@ h1 {
 
 @media screen and (min-width: 1373px) {
   .logo {
-    width: 900px;
-    height: 900px;
+    width: 700px;
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 1373px) {
+  .logo {
+    width: 600px;
+    height: 600px;
   }
 }
 
 @media screen and (max-width: 1050px) {
   .logo {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
 }
 
