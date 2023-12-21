@@ -52,7 +52,7 @@ export default function Team() {
           <img className="chrome" src="../team-pics/Chrome.png"></img>
         </a>
 
-        <a href="https://medium.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://medium.com/@itsnancyhuang/the-new-zustand-dev-tool-15613144b585" target="_blank" rel="noopener noreferrer">
           <img className="medium" src="../team-pics/medium.png"></img>
         </a>
         <a
