@@ -59,7 +59,7 @@ const NavBar = () => {
       </a>
       <a
         className="buttons"
-        href="https://medium.com/"
+        href="https://medium.com/@itsnancyhuang/the-new-zustand-dev-tool-15613144b585"
         target="_blank"
         rel="noopener noreferrer"
       >
