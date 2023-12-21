@@ -45,7 +45,7 @@ export default function Team() {
           <img className="npm" src="../team-pics/npm.png"></img>
         </a>
         <a
-          href="https://chromewebstore.google.com/"
+          href="https://chromewebstore.google.com/search/zusty"
           target="_blank"
           rel="noopener noreferrer"
         >
