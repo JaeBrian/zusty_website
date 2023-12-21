@@ -1,7 +1,7 @@
 const InstallButtonTeam = () => {
   const handleClick = (e) => {
     e.preventDefault();
-    window.open('http://google.com', '_blank', 'noreferrer');
+    window.open('https://chromewebstore.google.com/search/zusty', '_blank', 'noreferrer');
   };
   return (
     <div className="hero-btn">
