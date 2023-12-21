@@ -42,7 +42,7 @@ const NavBar = () => {
       <a
         id="chromebutton"
         className="buttons"
-        href="https://chromewebstore.google.com/"
+        href="https://chromewebstore.google.com/search/zusty"
         target="_blank"
         rel="noopener noreferrer"
       >
